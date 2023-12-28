@@ -265,7 +265,7 @@ public class Main {
                 System.out.println("Enter your statement : ");
                 readLine = in.nextLine();
                 lexicalResult = lexicalAnalayzer(readLine);
-                boolean forLoop = forLoopRule(lexicalResult, 6);
+                boolean forLoop = forLoopRule(lexicalResult, 0);
                 System.out.printf("%-50s%-30s%n", readLine, forLoop ? "Passed" : "Failed");
                 break;
             default:
