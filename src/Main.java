@@ -6,6 +6,20 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
+/* phase 1 ==> lexical analysis
+ * keywords
+ * identifier
+ * operators
+ * numericConstants
+ * specialCharacters
+ * comments
+ * */
+
+
+/* phase 2 ==> syntax analysis
+ * rule 1 ==>  keyword identifier = numericConstant || identifier  ;
+ * rule 2 ==> for ( keyword identifier = numericConstant ; identifier operator numericConstant ; identifier ++ ) { }
+ * */
 
 public class Main {
     //1
